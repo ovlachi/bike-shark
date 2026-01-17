@@ -53,6 +53,15 @@
           "type": "description",
           "settings": {}
         },
+        "collapsible_tab_C46DJR": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Features",
+            "icon": "check_mark",
+            "content": "<p></p><p>{{ product.metafields.custom.foldable.value }}</p>",
+            "page": ""
+          }
+        },
         "share": {
           "type": "share",
           "disabled": true,
@@ -86,6 +95,7 @@
         "quantity_selector",
         "buy_buttons",
         "description",
+        "collapsible_tab_C46DJR",
         "share",
         "meta_information_Mnmc7J",
         "icon_with_text_VrMPVY"
@@ -111,24 +121,22 @@
       "blocks": {
         "image_np6cpE": {
           "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/collage_1.jpg"
-          }
+          "settings": {}
         },
         "image_jXzY8e": {
           "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/collage_2.jpg"
-          }
+          "settings": {}
         },
         "image_Ac9GfX": {
           "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/collage_3.jpg"
-          }
+          "settings": {}
         }
       },
-      "block_order": ["image_np6cpE", "image_jXzY8e", "image_Ac9GfX"],
+      "block_order": [
+        "image_np6cpE",
+        "image_jXzY8e",
+        "image_Ac9GfX"
+      ],
       "settings": {
         "heading": "",
         "heading_size": "h1",
