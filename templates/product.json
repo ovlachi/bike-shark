@@ -56,9 +56,9 @@
         "collapsible_tab_7AMqp6": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Features",
+            "heading": "Colour",
             "icon": "check_mark",
-            "content": "",
+            "content": "{{ product.metafields.shopify[\"color-pattern\"] | metafield_tag: field: 'label' }}",
             "page": ""
           }
         },
