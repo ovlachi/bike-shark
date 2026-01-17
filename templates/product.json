@@ -53,6 +53,15 @@
           "type": "description",
           "settings": {}
         },
+        "collapsible_tab_Lnj8Vf": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Features",
+            "icon": "check_mark",
+            "content": "<p>{{ product.metafields.custom.foldable.value }}</p>",
+            "page": ""
+          }
+        },
         "share": {
           "type": "share",
           "disabled": true,
@@ -82,6 +91,7 @@
         "quantity_selector",
         "buy_buttons",
         "description",
+        "collapsible_tab_Lnj8Vf",
         "share",
         "icon_with_text_VrMPVY"
       ],
