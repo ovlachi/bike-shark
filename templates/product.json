@@ -58,7 +58,7 @@
           "settings": {
             "heading": "Features",
             "icon": "check_mark",
-            "content": "<p>{{ product.metafields.custom.foldable.value }}</p>",
+            "content": "",
             "page": ""
           }
         },
