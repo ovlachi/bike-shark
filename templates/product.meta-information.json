@@ -25,6 +25,7 @@
         },
         "text_MRRBY7": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Weight: {{ product.metafields.custom.weight.value }}",
             "text_style": "body"
