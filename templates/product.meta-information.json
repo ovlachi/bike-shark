@@ -30,6 +30,12 @@
             "text_style": "body"
           }
         },
+        "custom_liquid_76bqAe": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{{ product.metafields.custom.weight }}"
+          }
+        },
         "vendor": {
           "type": "text",
           "settings": {
@@ -104,6 +110,7 @@
         "title",
         "text_rW4Ciw",
         "text_MRRBY7",
+        "custom_liquid_76bqAe",
         "vendor",
         "product-rating",
         "price",
