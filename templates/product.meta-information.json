@@ -65,7 +65,7 @@
         "custom_liquid_8dbQyc": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "</br>\n<h3> Related product: </h3>\n\n<a style=\"color: yellow; text-decoration: none;\"  href=\"\"{{product.metafields.custom.related_product.value.url}}>\n<p>{{ product.metafields.custom.related_product.value.title }}</p>\n<img src=\"{{product.metafields.custom.related_product.value.featured_image | img_url: '200x'}}\">\n\n</a>"
+            "custom_liquid": "</br>\n<h3> Related product: </h3>\n\n<a style=\"color: yellow; text-decoration: none;\"  href=\"\"{{product.metafields.custom.related_product.value.url}}>\n<p>{{ product.metafields.custom.related_product.value.title }}</p>\n<img src=\"{{product.metafields.custom.related_product.value.featured_image | img_url: '220x'}}\">\n\n</a>"
           }
         },
         "description": {
