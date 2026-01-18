@@ -23,6 +23,13 @@
             "text_style": "body"
           }
         },
+        "text_MRRBY7": {
+          "type": "text",
+          "settings": {
+            "text": "Weight: {{ product.metafields.custom.weight.value }}",
+            "text_style": "body"
+          }
+        },
         "vendor": {
           "type": "text",
           "settings": {
@@ -96,6 +103,7 @@
       "block_order": [
         "title",
         "text_rW4Ciw",
+        "text_MRRBY7",
         "vendor",
         "product-rating",
         "price",
