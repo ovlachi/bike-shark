@@ -33,7 +33,7 @@
         "custom_liquid_76bqAe": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{{ product.metafields.custom.weight }}"
+            "custom_liquid": "{% if product.metafields.custom.weight %}\n\n<p>Weight: {{ product.metafields.custom.weight }}</p>\n\n{% endif %}"
           }
         },
         "vendor": {
