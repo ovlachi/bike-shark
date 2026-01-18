@@ -16,6 +16,13 @@
           "type": "title",
           "settings": {}
         },
+        "text_rW4Ciw": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.custom.product_intro.value }}",
+            "text_style": "body"
+          }
+        },
         "vendor": {
           "type": "text",
           "settings": {
@@ -88,6 +95,7 @@
       },
       "block_order": [
         "title",
+        "text_rW4Ciw",
         "vendor",
         "product-rating",
         "price",
