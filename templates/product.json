@@ -203,7 +203,7 @@
     "related-products": {
       "type": "related-products",
       "settings": {
-        "heading": "YOU MAY ALSO LIKE",
+        "heading": "YOU MAY ALSO LIKE!",
         "heading_size": "h2",
         "products_to_show": 3,
         "columns_desktop": 3,
